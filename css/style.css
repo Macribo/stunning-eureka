@@ -1,0 +1,17 @@
+/* *{
+	background-color:black;} */
+
+	#keyboard-container{
+background-color:gray;
+margin-left:3px;
+margin-right:3px;
+padding-top:3px;
+padding-bottom:3px;
+	display:grid;
+	}
+	.btn-toolbar{
+		margin-top:3px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+
