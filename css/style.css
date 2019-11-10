@@ -1,16 +1,28 @@
 /* *{
 	background-color:black;} */
 .button-group{
-	/* margin:0 !important; */
+	margin:0 !important;
 }
+
 .btn{
-	padding-left:6px;
-	margin:2px;
+	/* margin:0 !important; */
+
+	width:30px;
+	/* margin:2px; */
+}
+
+.btn-right{
+	/* border:3px solid orange; */
+	padding-right:5px !important; 
+}
+.btn-left{
+	/* border:3px solid orange; */
+	padding-left:5px !important; 
 }
 	#keyboard-container{
 		position:fixed;
 		top:50%;
-background-color:green;
+background-color:rgb(85, 97, 85);
 margin-left:3px;
 margin-right:3px;
 padding-top:3px;
@@ -21,12 +33,18 @@ padding-bottom:3px;
 	}
 
 	.btn-toolbar{
-		margin-top:23px;
-		margin-left:auto;
-		margin-right:auto;
-	text-align: center;
+		width:100%;
+justify-content: space-around;
+		margin-top:13px;
+		/* margin-left:auto; */
+		/* margin-right:auto; */
 display:inline-flex;
 		align-content: center;
+		
+	}
+	.btn-group{
+	border: 1px solid yellow;
+
 	}
 
 .space{
