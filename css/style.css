@@ -9,8 +9,11 @@ margin-left:3px;
 margin-right:3px;
 padding-top:3px;
 padding-bottom:3px;
-	display:grid;
+	display:inline-block;
+	align-content: center;
+	text-align: center;
 	}
+
 	.btn-toolbar{
 		margin-top:23px;
 		margin-left:auto;
