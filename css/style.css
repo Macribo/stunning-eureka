@@ -2,6 +2,8 @@
 	background-color:black;} */
 
 	#keyboard-container{
+		position:fixed;
+		top:50%;
 background-color:gray;
 margin-left:3px;
 margin-right:3px;
@@ -10,8 +12,14 @@ padding-bottom:3px;
 	display:grid;
 	}
 	.btn-toolbar{
-		margin-top:3px;
+		margin-top:23px;
 		margin-left:auto;
 		margin-right:auto;
 	}
 
+.space{
+	/* border:2px solid green; */
+	width: 100%;
+	padding-left:40px;
+	padding-right:40px;
+}

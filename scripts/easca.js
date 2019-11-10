@@ -1,15 +1,9 @@
 $(document).ready(function () {
-	
-	handleBtnClick = (e) =>{
-	//   let e= $(this).innerHTML;
-			
-	}
-
+let keyPressed;
 $('.btn-secondary').click(function(){
-	alert(this.name);
+	keyPressed = (this.innerHTML);
+	$('#output').append(keyPressed)
 });
-
-
 
 
 

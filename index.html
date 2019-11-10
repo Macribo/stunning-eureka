@@ -10,10 +10,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Easca onscreen keyboard</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-	keyboard
+	<h2 id="output">_</h2>
 
 
 	<div id="keyboard-container" class="">
@@ -82,9 +83,26 @@
 				<button type="button" class="btn btn-secondary">v</button>
 				<button type="button" class="btn btn-secondary">b</button>
 			</div>
-			
+			<div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+				<div class="btn-group mr-2" role="group" aria-label="del">
+<i class="fa fa-backspace"></i>
+					<button type="button" class="btn btn-secondary">
+<i class="fa fa-backspace"></i>
+
+					</button>
+					<button type="button" class="btn btn-secondary">?</button>
+				</div>
+				<div class="btn-group mr-2" role="group" aria-label="  ">
+					<button type="button" class="btn btn-secondary space">    </button>
+					<button type="button" class="btn btn-secondary space">    </button>
+				</div>	
+				<div class="btn-group mr-2" role="group" aria-label="z.">
+					<button type="button" class="btn btn-secondary">
+							<i class="fa fa-arrow-right"></i></button></button>
+
+				</div>		
 		</div>
-	</div>
+
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
 	</script>
