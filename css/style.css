@@ -1,6 +1,12 @@
 /* *{
 	background-color:black;} */
-
+.button-group{
+	/* margin:0 !important; */
+}
+.btn{
+	padding-left:6px;
+	margin:2px;
+}
 	#keyboard-container{
 		position:fixed;
 		top:50%;
@@ -18,6 +24,9 @@ padding-bottom:3px;
 		margin-top:23px;
 		margin-left:auto;
 		margin-right:auto;
+	text-align: center;
+display:inline-flex;
+		align-content: center;
 	}
 
 .space{
