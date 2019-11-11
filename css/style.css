@@ -6,22 +6,24 @@
 
 .btn{
 	/* margin:0 !important; */
-
-	width:30px;
+	display: block;
+	width: 100%;
 	/* margin:2px; */
+	border-radius:10px;
 }
 
 .btn-right{
 	/* border:3px solid orange; */
-	padding-right:5px !important; 
+	/* padding-right:8px !important;  */
 }
 .btn-left{
+	background-color:rgb(54, 60, 66);
 	/* border:3px solid orange; */
-	padding-left:5px !important; 
+	/* padding-left:8px !important;  */
 }
 	#keyboard-container{
 		position:fixed;
-		top:50%;
+		top:38%;
 background-color:rgb(85, 97, 85);
 margin-left:3px;
 margin-right:3px;
@@ -34,8 +36,10 @@ padding-bottom:3px;
 
 	.btn-toolbar{
 		width:100%;
-justify-content: space-around;
+justify-content: center;
 		margin-top:13px;
+		margin-left:0;
+		margin-right:0;
 		/* margin-left:auto; */
 		/* margin-right:auto; */
 display:inline-flex;
@@ -43,7 +47,10 @@ display:inline-flex;
 		
 	}
 	.btn-group{
-	border: 1px solid yellow;
+	border: 1px solid rgba(255, 255, 0, 0);
+width:20%;
+margin:0 !important;
+/* display:block; */
 
 	}
 
