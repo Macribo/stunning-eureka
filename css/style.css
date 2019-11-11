@@ -4,6 +4,9 @@
 	margin:0 !important;
 }
 
+#output{
+	margin:5px;
+}
 .btn{
 	/* margin:0 !important; */
 	display: block;
@@ -23,8 +26,8 @@
 }
 	#keyboard-container{
 		position:fixed;
-		top:38%;
-background-color:rgb(85, 97, 85);
+		bottom:5%;
+background-color:rgba(144, 144, 144, 0.52);
 margin-left:3px;
 margin-right:3px;
 padding-top:3px;
@@ -56,7 +59,17 @@ margin:0 !important;
 
 .space{
 	/* border:2px solid green; */
-	width: 100%;
-	padding-left:40px;
-	padding-right:40px;
+	width: 50% !important;
+	margin-left:25%;
+	bottom:5%;
+}
+#backspace{
+	
+	left:10px;
+	width:50px;
+}
+#return{
+	left:90%;
+	/* width:200px; */
+	margin-left:50px;
 }
