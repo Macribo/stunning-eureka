@@ -2,10 +2,13 @@
 	background-color:black;} */
 .button-group{
 	margin:0 !important;
+	align-content: center;
 }
 
+@font-face { font-family: 'Urchlo Romhanach'; src: url('../fonts/Urchlo\ Romhanach.ttf'); } 
 #output{
 	margin:5px;
+	font-family: 'Urchlo Romhanach';
 }
 .btn{
 	font-size:1.2rem;
@@ -17,6 +20,7 @@
 	
 
 }
+
 
 .btn-right{
 	/* border:3px solid orange; */
@@ -45,6 +49,11 @@
 	
 }
 
+#e-line, #f-line , #a-line, #c-line, #shift-line{
+	border:2px solid orange;
+	width:100%;
+}
+
 .btn-toolbar{
 	width:100%;
 	justify-content: center;
@@ -55,6 +64,7 @@
 		/* margin-right:auto; */
 		display:inline-flex;
 		align-content: center;
+		border:2px solid green;
 		
 	}
 	.btn-group{
@@ -79,4 +89,19 @@
 .z-line{
 	
 	margin-left:2% !important;
+}
+
+#alt-keyboard-container{
+	/* display:none !t; */
+	position:fixed;
+	background-color:rgba(144, 144, 144, 0.52);
+	
+	bottom:5%;
+	/* background-color:pink; */
+	padding-top:3px;
+	padding-bottom:3px;
+	display:inline-block;
+	align-content: center;
+	text-align: center;
+	
 }
